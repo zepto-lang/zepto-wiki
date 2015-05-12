@@ -1,7 +1,8 @@
 # TODO
 
 There are a couple of features that are to be implemented at some point or another.
-Here is a quick and dirty list of everything I have in mind:
+Here is a quick and dirty list of everything I have in mind ordered by informed guesses
+about each points' scope:
 
 **Small:**
 * fix single number expression (in the repl 1.5lasd is parsed as 1.5)
