@@ -12,7 +12,7 @@ ports. So what are ports?
 
 Ports are anything you can read from and write into. That includes
 files, of course, but also such things as the standard input and
-output devices, commonly known as `stdin` and `stdin`. Those are actually
+output devices, commonly known as `stdin` and `stdout`. Those are actually
 pretty similar to the `FILE` type in C or the `file` objects in Python.
 
 You can create them in two ways, depending on their type. There are
