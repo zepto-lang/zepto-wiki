@@ -2,7 +2,7 @@
 
 Doing IO in zepto is pretty straightforward (or so I hope), but
 [there are a few pitfalls](#output). This tutorial aims to provide you
-with all knowledge that is necessary to print things to stdout
+with all knowledge that is necessary to read things or print them to stdout
 and into files.
 
 ## Introductory Terms
