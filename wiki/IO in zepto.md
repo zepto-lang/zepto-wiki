@@ -26,7 +26,7 @@ two ways of opening files, namely:
 ```
 
 What you get back from the two open functions is an `IO Port`, meaning
-the general type is the same. This in turn means that something like this
+the general type is the same. This in turn means that something like 
 `(write "foo" (open-input-file "bar"))` is not yielding a type error,
 but rather a string representing the IO error. Closing is done by invoking
 the analogous call.
