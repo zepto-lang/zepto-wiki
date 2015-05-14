@@ -14,4 +14,5 @@ the Advanced Features page that I already mentioned. *Have fun!*
 If you run into trouble at any time, feel free to contact me by
 any means necessary that do not involve breaking my door.
 
-
+A version that might be slightly more up-to-date can be found
+[on the zepto homepage](http://zepto.veitheller.de/wiki).
