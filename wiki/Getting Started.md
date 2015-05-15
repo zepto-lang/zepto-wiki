@@ -286,7 +286,7 @@ namely:
 (string-append "a" "b") ; appends char or string to string
 ```
 
-The purists among you may notice some deviations from R5RS.
+The purists among you may notice some deviations from R<sup>5</sup>RS.
 Most of it is by design, although if you think some of this is
 unacceptable behaviour, create a pull request of file an issue,
 I am always open to suggestions.
