@@ -14,6 +14,8 @@ about each points' scope:
 * Make cl libraries work
 * Hashtables (SRFI 69)
 * add traceback to errors
+* add pattern matching
+* add list comprehensions
 
 **Big:**
 * Foreign Function Interface to C and Haskell
