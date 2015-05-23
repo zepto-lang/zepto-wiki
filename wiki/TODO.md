@@ -6,6 +6,7 @@ about each points' scope:
 
 **Small:**
 * fix single number expression (in the repl 1.5lasd is parsed as 1.5)
+* fix obscure single non-expression bug (triggered by e.g. `(begin (define x 10) (display "foo") x)` - parse error
 
 **Medium:**
 * Profiling shows getting variables(especially namespaced vars) takes ages(~86% of execution time). Fix that.
