@@ -351,6 +351,23 @@ easier; if you ever find yourself in a position where you have to do matrix
 manipulation, feel free to have a look at it. There is a section on matrices
 in the [Math](github.com/hellerve/zepto/wiki/Math) chapter.
 
+### List Comprehensions
+There is another syntax addition to zepto that is a bit more interesting than
+Atoms, namely List Comprehensions. They are a way of building lists from different
+lists by walking through every element in the existing list and applying some kind
+of mutation to it, possibly also filtering those elements.
+
+List comprehensions look like this:
+
+```clojure
+; [mutation | element-name <- list, optional-filter]
+[(+ x 1) | x <- [1 2 3 4], (> x 2)] ; this will return [4 5]
+[(display el) | el <- '(:h "i")] ; this will print :hi and return an empty list
+```
+
+They are a handy construct to express a map-and-filter operation concisely. 
+I hope they are as straightforward to you as I deem them to be.
+
 ## Macros
 
 ## Continuations
