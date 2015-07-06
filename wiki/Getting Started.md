@@ -368,6 +368,8 @@ List comprehensions look like this:
 They are a handy construct to express a map-and-filter operation concisely. 
 I hope they are as straightforward to you as I deem them to be.
 
+## Hashmaps
+
 ## Macros
 
 ## Continuations
