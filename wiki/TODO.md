@@ -10,6 +10,7 @@ about each points' scope:
 
 **Medium:**
 * Profiling shows getting variables(especially namespaced vars) takes ages(~86% of execution time). Fix that.
+* Create byte vector type and http library
 * Make macros more robust
 * Fix continuations
 * Make cl libraries work
