@@ -14,7 +14,7 @@ power, like in most other languages, but instead in
 brackets. Inside a bracket, there has to be a single
 statement, such as:
 
-````clojure
+```clojure
 (+ 1 1)
 ```
 
